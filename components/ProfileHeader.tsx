@@ -12,10 +12,15 @@ export default function ProfileHeader() {
               Robotics Researcher @ Honda Research Institute
             </p>
 
-            {/* Brief Bio */}
-            <p className="text-sm text-gray-600 mb-8 leading-relaxed">
-              Developing tactile perception and multimodal representation learning for robotic manipulation. Research focused on hardware integration, simulation, and scaling learning to real-world systems.
-            </p>
+            {/* Bio */}
+            <div className="space-y-4 mb-8">
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Robotics researcher with 5+ years building tactile perception systems. I'm genuinely interested in the hard intersection problems: simulation to reality, sensors to algorithms, perception to control.
+              </p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Full-stack approach across physics, hardware, and learning. Current work fuses tactile understanding into Vision-Language-Action models—early results have moved into patents and real-world deployment.
+              </p>
+            </div>
 
             {/* Social Links */}
             <div className="flex flex-wrap gap-3">
