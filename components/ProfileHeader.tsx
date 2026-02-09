@@ -17,9 +17,23 @@ export default function ProfileHeader() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 I am a Robotics Researcher with 5+ years of experience and a singular focus: Tactile Representation Learning. While the industry has mastered "seeing," I am obsessed with "feeling." I build the missing modality that turns computer vision into true Spatial Intelligence, enabling robotic hands to manipulate objects with human-like nuance.
               </p>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                The Full Stack Approach: I don't just train models in a void; I own the pipeline from end to end. Simulation—high-fidelity physics modeling. Algorithm—multimodal learning and representation. Hardware—real-world deployment and sensor integration.
+              <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                The Full Stack Approach: I don't just train models in a void; I own the pipeline from end to end.
               </p>
+              <ul className="text-sm text-gray-600 space-y-2 pl-4">
+                <li className="flex gap-3">
+                  <span className="text-gray-400">•</span>
+                  <span><strong>Simulation:</strong> High-fidelity physics modeling</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gray-400">•</span>
+                  <span><strong>Algorithm:</strong> Multimodal learning and representation</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-gray-400">•</span>
+                  <span><strong>Hardware:</strong> Real-world deployment and sensor integration</span>
+                </li>
+              </ul>
             </div>
 
             {/* Social Links */}
