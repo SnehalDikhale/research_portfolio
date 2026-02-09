@@ -15,10 +15,13 @@ export default function ProfileHeader() {
             {/* Bio */}
             <div className="space-y-4 mb-8">
               <p className="text-sm text-gray-600 leading-relaxed">
-                Robotics researcher with 5+ years developing tactile perception and multimodal representation learning for dexterous manipulation. I'm genuinely interested in the hard intersection problems: bridging simulation to reality, connecting sensors to algorithms, and linking perception to control. My work spans the full stack—from high-fidelity physics simulation and custom hardware integration to neural architecture design.
+                Robotics researcher with 5+ years of focused work on tactile representation learning. While the industry has mastered vision, I'm building the missing modality—touch. I develop multimodal learning systems that turn computer vision into true spatial intelligence, enabling robotic hands to manipulate objects with human-like nuance and understanding.
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Currently extending Vision-Language-Action models to incorporate tactile understanding, enabling robots to reason about both visual semantics and tactile affordances. This work has moved beyond prototyping into patent filings and demonstrated real-world performance gains. I believe that respecting hardware constraints and sensor physics leads to better algorithms—and better deployment outcomes.
+                I take a full-stack approach because the interesting problems live across all layers. I own the pipeline end-to-end: high-fidelity physics simulation, multimodal learning algorithms, and real-world hardware integration. Not because I enjoy reinventing wheels, but because understanding each layer deeply makes everything else work better.
+              </p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Currently extending Vision-Language-Action models to incorporate tactile reasoning. Early results have moved beyond the lab into patent filings and measurable real-world performance gains—proving that when you respect both hardware constraints and the physics, the algorithms follow.
               </p>
             </div>
 
