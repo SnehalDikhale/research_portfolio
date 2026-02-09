@@ -1,7 +1,42 @@
+"use client";
+
+import { useState } from "react";
+
 export default function ProfileHeader() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <section className="py-12 px-6 bg-white border-b border-gray-200">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto relative">
+        {/* Top Right Menu */}
+        <div className="absolute top-0 right-0">
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="p-2 text-gray-700 hover:text-gray-900 transition-colors"
+            aria-label="Menu"
+          >
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+
+          {menuOpen && (
+            <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded shadow-lg z-10">
+              <a
+                href="/Resume_SnehalSDikhale.pdf"
+                download
+                className="flex items-center gap-2 px-4 py-3 text-gray-700 hover:bg-gray-100 text-sm transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v20m0 0l-6-6m6 6l6-6" />
+                </svg>
+                Download Resume
+              </a>
+            </div>
+          )}
+        </div>
+
         <div className="grid md:grid-cols-[1fr_1fr] gap-8 items-center">
           {/* Left: Name and Bio */}
           <div>
@@ -36,18 +71,8 @@ export default function ProfileHeader() {
               </ul>
             </div>
 
-            {/* Social Links & Resume */}
+            {/* Social Links */}
             <div className="flex flex-wrap gap-3">
-              <a
-                href="/Resume_SnehalSDikhale.pdf"
-                download
-                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white hover:bg-gray-800 text-sm rounded font-medium transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v20m0 0l-6-6m6 6l6-6" />
-                </svg>
-                Resume
-              </a>
               <a
                 href="https://github.com/SnehalDikhale"
                 target="_blank"
