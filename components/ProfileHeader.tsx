@@ -36,8 +36,18 @@ export default function ProfileHeader() {
               </ul>
             </div>
 
-            {/* Social Links */}
+            {/* Social Links & Resume */}
             <div className="flex flex-wrap gap-3">
+              <a
+                href="/Resume_SnehalSDikhale.pdf"
+                download
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white hover:bg-gray-800 text-sm rounded font-medium transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v20m0 0l-6-6m6 6l6-6" />
+                </svg>
+                Resume
+              </a>
               <a
                 href="https://github.com/SnehalDikhale"
                 target="_blank"
