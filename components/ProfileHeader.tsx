@@ -15,10 +15,10 @@ export default function ProfileHeader() {
             {/* Bio */}
             <div className="space-y-4 mb-8">
               <p className="text-sm text-gray-600 leading-relaxed">
-                Robotics researcher with 5+ years building tactile perception systems. I'm genuinely interested in the hard intersection problems: simulation to reality, sensors to algorithms, perception to control.
+                Robotics researcher with 5+ years developing tactile perception and multimodal representation learning for dexterous manipulation. I'm genuinely interested in the hard intersection problems: bridging simulation to reality, connecting sensors to algorithms, and linking perception to control. My work spans the full stack—from high-fidelity physics simulation and custom hardware integration to neural architecture design.
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Full-stack approach across physics, hardware, and learning. Current work fuses tactile understanding into Vision-Language-Action models—early results have moved into patents and real-world deployment.
+                Currently extending Vision-Language-Action models to incorporate tactile understanding, enabling robots to reason about both visual semantics and tactile affordances. This work has moved beyond prototyping into patent filings and demonstrated real-world performance gains. I believe that respecting hardware constraints and sensor physics leads to better algorithms—and better deployment outcomes.
               </p>
             </div>
 
