@@ -15,13 +15,10 @@ export default function ProfileHeader() {
             {/* Bio */}
             <div className="space-y-4 mb-8">
               <p className="text-sm text-gray-600 leading-relaxed">
-                Robotics researcher with 5+ years of focused work on tactile representation learning. While the industry has mastered vision, I'm building the missing modality—touch. I develop multimodal learning systems that turn computer vision into true spatial intelligence, enabling robotic hands to manipulate objects with human-like nuance and understanding.
+                I am a Robotics Researcher with 5+ years of experience and a singular focus: Tactile Representation Learning. While the industry has mastered "seeing," I am obsessed with "feeling." I build the missing modality that turns computer vision into true Spatial Intelligence, enabling robotic hands to manipulate objects with human-like nuance.
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                I take a full-stack approach because the interesting problems live across all layers. I own the pipeline end-to-end: high-fidelity physics simulation, multimodal learning algorithms, and real-world hardware integration. Not because I enjoy reinventing wheels, but because understanding each layer deeply makes everything else work better.
-              </p>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                Currently extending Vision-Language-Action models to incorporate tactile reasoning. Early results have moved beyond the lab into patent filings and measurable real-world performance gains—proving that when you respect both hardware constraints and the physics, the algorithms follow.
+                The Full Stack Approach: I don't just train models in a void; I own the pipeline from end to end. Simulation—high-fidelity physics modeling. Algorithm—multimodal learning and representation. Hardware—real-world deployment and sensor integration.
               </p>
             </div>
 
